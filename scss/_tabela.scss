@@ -96,6 +96,14 @@
                 }
         }
 
+        .titulo__fase {
+            font-family: $fonte-titulo;
+            color: #fff;
+            text-align: center;
+            margin-top: 3rem;
+            font-size: 2rem;
+        }
+
         .fase__1 {
             padding-top: 3rem;
             display: flex;
