@@ -1,9 +1,10 @@
 .sobre {
     background-color: $cor-section;
     height: 100vh;
+    border-bottom: 3px solid #fff;
 
         @include celular {
-            height: 160vh;
+            height: 170vh;
         }
 
         .sobre__box {
