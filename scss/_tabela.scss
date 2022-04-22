@@ -68,12 +68,15 @@
             font-weight: bold;
             padding: 1rem;
             width: 200px;
+            border: 1px solid #fff;
+            text-align: center;
 
                 &:hover {
                     background-color: #fff;
                     transition: all .5s;
                     color: #000;
                     font-weight: bold;
+                    border: 1px solid $cor-btn;
                 }
         }
 

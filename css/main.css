@@ -182,12 +182,15 @@ img {
     background-color: #BA1200;
     font-weight: bold;
     padding: 1rem;
-    width: 200px; }
-    /* line 72, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_tabela.scss */
+    width: 200px;
+    border: 1px solid #fff;
+    text-align: center; }
+    /* line 74, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_tabela.scss */
     .tabela .tabela__abas__links:hover {
       background-color: #fff;
       transition: all .5s;
       color: #000;
-      font-weight: bold; }
+      font-weight: bold;
+      border: 1px solid #BA1200; }
 
 /*# sourceMappingURL=main.css.map */
