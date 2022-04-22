@@ -83,9 +83,16 @@
         .fase__1 {
             padding-top: 3rem;
             display: flex;
+            flex-wrap: wrap;
             justify-content: space-around;
             gap: 2;
             
+        }
+
+        .fase__1__box {
+            margin-bottom: 1.4rem;
+
+               
         }
 
         .fase__titulo {
@@ -98,6 +105,12 @@
             width: 500px;
             border-top-right-radius: 50px;
             border: 1px solid $cor-paragrafo;
+
+                &:hover {
+                    background-color: #fff;
+                    transition: all .6s;
+                    color: #000;
+                }
         }
         
         .fase__tabela {
@@ -109,6 +122,36 @@
             width: 500px;
             padding: .8rem;
             border-top-right-radius: 50px;
+
+                &:hover {
+                    background-color: #fff;
+                    transition: all .6s;
+                }
+
+                &:hover .jogo__1 {
+                    color: #000;
+                    font-weight: bold;
+                }
+
+                &:hover .confronto__time {
+                    color: #000;
+                    font-weight: bold;
+                }
+
+                &:hover .resultado {
+                    color: #000;
+                    font-weight: bold;
+                }
+
+                &:hover .data {
+                    color: #000;
+                    font-weight: bold;
+                }
+
+                &:hover .hora {
+                    color: #000;
+                    font-weight: bold;
+                }
 
         }
 
