@@ -103,7 +103,7 @@ img {
   @media (max-width: 480px) {
     /* line 22, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_patrocinadores.scss */
     .patrocinadores .logo__patrocinio {
-      width: 75px; } }
+      width: 80px; } }
 
 /* line 30, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_patrocinadores.scss */
 .patrocinadores .patrocinio-box1, .patrocinadores .patrocinio-box2 {
@@ -123,7 +123,7 @@ img {
   @media (max-width: 480px) {
     /* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_sobre.scss */
     .sobre {
-      height: 200vh; } }
+      height: 180vh; } }
   /* line 9, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_sobre.scss */
   .sobre .sobre__box {
     display: flex;
