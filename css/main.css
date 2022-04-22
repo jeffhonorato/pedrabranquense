@@ -124,4 +124,14 @@ img {
     padding: .5rem;
     margin-bottom: .5rem; }
 
+/* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_tabela.scss */
+.tabela {
+  background-color: #001F29; }
+  /* line 4, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_tabela.scss */
+  .tabela .tabela__cabecalho {
+    color: #fff;
+    font-family: "KoHo", sans-serif;
+    font-size: 3rem;
+    text-align: center; }
+
 /*# sourceMappingURL=main.css.map */
