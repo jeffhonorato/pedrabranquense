@@ -1,0 +1,27 @@
+.patrocinadores {
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+
+        .patrocinio__cabecalho {
+            padding: 1.4rem;
+        }
+
+        .patrocinadores__titulo {
+            text-align: center;
+            padding-bottom: 2rem;
+            font-family: $fonte-corpo;
+            font-size: 3rem;
+        }
+
+        .logo__patrocinio {
+            width: 120px;
+        }
+
+        .patrocinio-box1, .patrocinio-box2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+}
+

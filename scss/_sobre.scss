@@ -1,0 +1,35 @@
+.sobre {
+    background-color: $cor-section;
+    height: 100vh;
+
+        .sobre__box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 4rem;
+            height: 100vh;
+        }
+
+        .logo__liga {
+            width: 350px;
+        }
+
+        .sobre__info {
+            width: 640px;
+        }
+
+        .sobre__titulo {
+            color: #fff;
+            font-family: $fonte-corpo;
+            font-size: 2.4rem;
+            margin-bottom: 2rem;
+        }
+
+        .sobre__p {
+            color: rgb(146, 141, 141);
+            font-family: $fonte-corpo;
+            padding: .5rem;
+            margin-bottom: .5rem;
+        }
+
+}

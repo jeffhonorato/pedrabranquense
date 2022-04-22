@@ -14,16 +14,26 @@
             padding: 1rem;
         }
 
-        .nav__link {
-            color: #fff;
-            font-family: $fonte-titulo;
-            font-size: 1.4rem;
-            box-shadow: 0px 0px 2px 2px #000;
+        .nav__item {
+            display: flex;
+            align-items: center;
+            gap: .3rem;
             padding: 4px 8px;
+            box-shadow: 0px 0px 2px 2px #000;
 
                 &:hover {
                     box-shadow: 0px 0px 4px 4px #fff;
                     transition: all .6s;
                 }
+        }
+
+        .img__menu {
+            width: 30px;
+        }
+
+        .nav__link {
+            color: #fff;
+            font-family: $fonte-titulo;
+            font-size: 1.4rem;
         }
 }
