@@ -1,5 +1,9 @@
 /********* VARIAVEIS *********/
-
+$cor-header: #006B8F;
+$cor-section: #001F29;
+$cor-btn: #BA1200;
+$fonte-titulo: 'Nova Square', cursive;
+$fonte-corpo: 'KoHo', sans-serif;
 
 /********* CONFIGURAÇÃO *********/
 * {
@@ -7,6 +11,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, li {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+
+
+/********* MIXINS *********/
+@import "header.scss";
 
 /********* PÁGINA *********/
 

@@ -2,11 +2,13 @@
 	"version": 3,
 	"file": "main.css",
 	"sources": [
-		"../scss/main.scss"
+		"../scss/main.scss",
+		"../scss/_header.scss"
 	],
 	"sourcesContent": [
-		"/********* VARIAVEIS *********/\r\n\r\n\r\n/********* CONFIGURAÇÃO *********/\r\n* {\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: border-box;\r\n}\r\n\r\n/********* PÁGINA *********/\r\n\r\n"
+		"/********* VARIAVEIS *********/\r\n$cor-header: #006B8F;\r\n$cor-section: #001F29;\r\n$cor-btn: #BA1200;\r\n$fonte-titulo: 'Nova Square', cursive;\r\n$fonte-corpo: 'KoHo', sans-serif;\r\n\r\n/********* CONFIGURAÇÃO *********/\r\n* {\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: border-box;\r\n}\r\n\r\nhtml {\r\n    scroll-behavior: smooth;\r\n}\r\n\r\na {\r\n    text-decoration: none;\r\n}\r\n\r\nul, li {\r\n    list-style: none;\r\n}\r\n\r\nimg {\r\n    width: 100%;\r\n    display: block;\r\n}\r\n\r\n\r\n\r\n/********* MIXINS *********/\r\n@import \"header.scss\";\r\n\r\n/********* PÁGINA *********/\r\n\r\n",
+		".header {\r\n    background-color: $cor-header;\r\n}"
 	],
 	"names": [],
-	"mappings": ";AAAA,+BAA+B;AAG/B,kCAAkC;;AAClC,AAAA,CAAC,CAAC;EACE,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU,GACzB;;AAED,4BAA4B"
+	"mappings": ";AAAA,+BAA+B;AAO/B,kCAAkC;;AAClC,AAAA,CAAC,CAAC;EACE,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU,GACzB;;;AAED,AAAA,IAAI,CAAC;EACD,eAAe,EAAE,MAAM,GAC1B;;;AAED,AAAA,CAAC,CAAC;EACE,eAAe,EAAE,IAAI,GACxB;;;AAED,AAAA,EAAE,EAAE,EAAE,CAAC;EACH,UAAU,EAAE,IAAI,GACnB;;;AAED,AAAA,GAAG,CAAC;EACA,KAAK,EAAE,IAAI;EACX,OAAO,EAAE,KAAK,GACjB;;AAID,4BAA4B;;ACjC5B,AAAA,OAAO,CAAC;EACJ,gBAAgB,EDAP,OAAO,GCCnB;;ADkCD,4BAA4B"
 }

@@ -1,11 +1,33 @@
 @charset "UTF-8";
 /********* VARIAVEIS *********/
 /********* CONFIGURAÇÃO *********/
-/* line 5, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/main.scss */
+/* line 9, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/main.scss */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
+
+/* line 15, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/main.scss */
+html {
+  scroll-behavior: smooth; }
+
+/* line 19, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/main.scss */
+a {
+  text-decoration: none; }
+
+/* line 23, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/main.scss */
+ul, li {
+  list-style: none; }
+
+/* line 27, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/main.scss */
+img {
+  width: 100%;
+  display: block; }
+
+/********* MIXINS *********/
+/* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_header.scss */
+.header {
+  background-color: #006B8F; }
 
 /********* PÁGINA *********/
 
