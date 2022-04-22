@@ -80,5 +80,64 @@
                 }
         }
 
+        .fase__1 {
+            padding-top: 3rem;
+            display: flex;
+            justify-content: space-around;
+            gap: 2;
+            
+        }
+
+        .fase__titulo {
+            color: #fff;
+            font-family: $fonte-titulo;
+            font-size: 1.4rem;
+            text-align: center;
+            background-color: $cor-btn;
+            padding: 1rem;
+            width: 500px;
+            border-top-right-radius: 50px;
+            border: 1px solid $cor-paragrafo;
+        }
         
+        .fase__tabela {
+            display: grid;
+            justify-items: center;
+            align-items: center;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            border:  2px solid $cor-paragrafo;
+            width: 500px;
+            padding: .8rem;
+            border-top-right-radius: 50px;
+
+        }
+
+        .jogo__1 {
+            font-family: $fonte-corpo;
+            color: #fff;
+        }
+
+        .confronto__jogo {
+            display: flex;
+            gap: 1.2rem;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .confronto__time {
+            font-family: $fonte-corpo;
+            color: #fff;
+        }
+
+        .resultado {
+            font-family: $fonte-corpo;
+            color: #fff;
+            // padding: 1px 3px;
+        }
+
+        .data,
+        .hora {
+            font-family: $fonte-corpo;
+            color: #fff;
+        }
 }

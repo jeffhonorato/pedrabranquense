@@ -192,5 +192,54 @@ img {
       color: #000;
       font-weight: bold;
       border: 1px solid #BA1200; }
+  /* line 83, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_tabela.scss */
+  .tabela .fase__1 {
+    padding-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 2; }
+  /* line 91, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_tabela.scss */
+  .tabela .fase__titulo {
+    color: #fff;
+    font-family: "Nova Square", cursive;
+    font-size: 1.4rem;
+    text-align: center;
+    background-color: #BA1200;
+    padding: 1rem;
+    width: 500px;
+    border-top-right-radius: 50px; }
+  /* line 102, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_tabela.scss */
+  .tabela .fase__tabela {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border: 2px solid #928d8d;
+    width: 500px;
+    padding: .8rem;
+    border-top-right-radius: 50px; }
+  /* line 114, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_tabela.scss */
+  .tabela .jogo__1 {
+    font-family: "KoHo", sans-serif;
+    color: #fff; }
+  /* line 119, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_tabela.scss */
+  .tabela .confronto__jogo {
+    display: flex;
+    gap: 1.2rem;
+    align-items: center;
+    justify-content: space-between; }
+  /* line 126, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_tabela.scss */
+  .tabela .confronto__time {
+    font-family: "KoHo", sans-serif;
+    color: #fff; }
+  /* line 131, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_tabela.scss */
+  .tabela .resultado {
+    font-family: "KoHo", sans-serif;
+    color: #fff; }
+  /* line 137, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_tabela.scss */
+  .tabela .data,
+  .tabela .hora {
+    font-family: "KoHo", sans-serif;
+    color: #fff; }
 
 /*# sourceMappingURL=main.css.map */
