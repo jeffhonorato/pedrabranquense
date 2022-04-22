@@ -51,10 +51,30 @@
 
         .tabela__abas {
             display: flex;
-            gap: 1rem;
-            justify-content: center;
-            border: 2px solid #fff;
+            // gap: 1rem;
+            margin: 0 auto;
+            // border: 2px solid #fff;
+            
+            // padding: 1rem;
+            width: 520px;
+        }
+
+        .tabela__abas__links {
+            font-family: $fonte-corpo;
+            font-size: 1.4rem;
+            border-top-right-radius: 50px;
+            color: $cor-paragrafo;
+            background-color: $cor-btn;
+            font-weight: bold;
             padding: 1rem;
+            width: 200px;
+
+                &:hover {
+                    background-color: #fff;
+                    transition: all .5s;
+                    color: #000;
+                    font-weight: bold;
+                }
         }
 
         

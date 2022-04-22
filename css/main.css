@@ -1,25 +1,25 @@
 @charset "UTF-8";
 /********* VARIAVEIS *********/
 /********* CONFIGURAÇÃO *********/
-/* line 9, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/main.scss */
+/* line 10, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/main.scss */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
 
-/* line 15, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/main.scss */
+/* line 16, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/main.scss */
 html {
   scroll-behavior: smooth; }
 
-/* line 19, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/main.scss */
+/* line 20, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/main.scss */
 a {
   text-decoration: none; }
 
-/* line 23, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/main.scss */
+/* line 24, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/main.scss */
 ul, li {
   list-style: none; }
 
-/* line 27, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/main.scss */
+/* line 28, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/main.scss */
 img {
   width: 100%;
   display: block; }
@@ -171,9 +171,23 @@ img {
   /* line 52, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_tabela.scss */
   .tabela .tabela__abas {
     display: flex;
-    gap: 1rem;
-    justify-content: center;
-    border: 2px solid #fff;
-    padding: 1rem; }
+    margin: 0 auto;
+    width: 520px; }
+  /* line 62, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_tabela.scss */
+  .tabela .tabela__abas__links {
+    font-family: "KoHo", sans-serif;
+    font-size: 1.4rem;
+    border-top-right-radius: 50px;
+    color: #928d8d;
+    background-color: #BA1200;
+    font-weight: bold;
+    padding: 1rem;
+    width: 200px; }
+    /* line 72, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_tabela.scss */
+    .tabela .tabela__abas__links:hover {
+      background-color: #fff;
+      transition: all .5s;
+      color: #000;
+      font-weight: bold; }
 
 /*# sourceMappingURL=main.css.map */
