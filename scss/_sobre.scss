@@ -4,6 +4,7 @@
 
         .sobre__box {
             display: flex;
+            flex-wrap: wrap;
             justify-content: center;
             align-items: center;
             gap: 4rem;
@@ -16,6 +17,18 @@
 
         .sobre__info {
             width: 640px;
+            position: relative;
+        }
+
+        .img__detalhe__bola {
+            width: 60px;
+        }
+
+        .img__detalhe__bola2 {
+            width: 60px;
+            bottom: -25px;
+            right: 0;
+            position: absolute;
         }
 
         .sobre__titulo {
