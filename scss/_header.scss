@@ -1,3 +1,29 @@
 .header {
     background-color: $cor-header;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+        .logo {
+            width: 12.5rem;
+        }
+
+        .nav {
+            display: flex;
+            gap: 1rem;
+            padding: 1rem;
+        }
+
+        .nav__link {
+            color: #fff;
+            font-family: $fonte-titulo;
+            font-size: 1.4rem;
+            box-shadow: 0px 0px 2px 2px #000;
+            padding: 4px 8px;
+
+                &:hover {
+                    box-shadow: 0px 0px 4px 4px #fff;
+                    transition: all .6s;
+                }
+        }
 }

@@ -32,7 +32,28 @@ img {
 
 
 /********* MIXINS *********/
-@import "header.scss";
+
+/********* RESPONSIVIDADE *********/
+@mixin celular {
+    @media(max-width: 480px) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media(min-width: 480px) and (max-width: 768) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media(min-width: 768px) and (max-width: 1480) {
+        @content;
+    }
+}
+
+
+
 
 /********* PÁGINA *********/
-
+@import "header.scss";
