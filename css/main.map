@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"../scss/main.scss"
+	],
+	"sourcesContent": [
+		"/********* VARIAVEIS *********/\r\n\r\n\r\n/********* CONFIGURAÇÃO *********/\r\n* {\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: border-box;\r\n}\r\n\r\n/********* PÁGINA *********/\r\n\r\n"
+	],
+	"names": [],
+	"mappings": ";AAAA,+BAA+B;AAG/B,kCAAkC;;AAClC,AAAA,CAAC,CAAC;EACE,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU,GACzB;;AAED,4BAA4B"
+}
