@@ -123,7 +123,7 @@ img {
   @media (max-width: 480px) {
     /* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_sobre.scss */
     .sobre {
-      height: 180vh; } }
+      height: 160vh; } }
   /* line 9, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_sobre.scss */
   .sobre .sobre__box {
     display: flex;
