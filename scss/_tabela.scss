@@ -7,6 +7,10 @@
             font-size: 3rem;
             text-align: center;
             margin-bottom: 2rem;
+
+                @include celular {
+                    font-size: 2rem;
+                }
         }
 
         .tabela__box__btn {
@@ -28,6 +32,10 @@
         .tabela__icone {
             width: 50px;
             background-color: #fff;
+
+                @include celular {
+                    width: 40px;
+                }
         }
 
         .tabela__btn__titulo {
@@ -57,6 +65,10 @@
             
             // padding: 1rem;
             width: 520px;
+
+                @include celular {
+                    width: 300px;
+                }
         }
 
         .tabela__abas__links {
@@ -78,6 +90,10 @@
                     font-weight: bold;
                     border: 1px solid $cor-btn;
                 }
+
+                @include celular {
+                    font-size: 1rem;
+                }
         }
 
         .fase__1 {
@@ -91,7 +107,6 @@
 
         .fase__1__box {
             margin-bottom: 1.4rem;
-
                
         }
 
@@ -111,13 +126,18 @@
                     transition: all .6s;
                     color: #000;
                 }
+
+                @include celular {
+                    width: 300px;
+                }
         }
         
         .fase__tabela {
             display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            justify-content:  space-evenly;
             justify-items: center;
             align-items: center;
-            grid-template-columns: 1fr 1fr 1fr 1fr;
             border:  2px solid $cor-paragrafo;
             width: 500px;
             padding: .8rem;
@@ -153,11 +173,16 @@
                     font-weight: bold;
                 }
 
+                @include celular {
+                    width: 300px;
+                }
+
         }
 
         .jogo__1 {
             font-family: $fonte-corpo;
             color: #fff;
+            font-size: 14px;
         }
 
         .confronto__jogo {
@@ -165,16 +190,20 @@
             gap: 1.2rem;
             align-items: center;
             justify-content: space-between;
+            font-size: 14px;
+            margin-bottom: 6px;
         }
 
         .confronto__time {
             font-family: $fonte-corpo;
             color: #fff;
+            font-size: 14px;
         }
 
         .resultado {
             font-family: $fonte-corpo;
             color: #fff;
+            font-size: 14px;
             // padding: 1px 3px;
         }
 
@@ -182,5 +211,6 @@
         .hora {
             font-family: $fonte-corpo;
             color: #fff;
+            font-size: 14px;
         }
 }

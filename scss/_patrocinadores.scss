@@ -12,16 +12,30 @@
             padding-bottom: 2rem;
             font-family: $fonte-corpo;
             font-size: 3rem;
+
+                @include celular {
+                    font-size: 2rem;
+                    padding-bottom: 1rem;
+                }
         }
 
         .logo__patrocinio {
             width: 120px;
+
+                @include celular {
+                    width: 75px;
+                }
         }
 
         .patrocinio-box1, .patrocinio-box2 {
             display: flex;
             justify-content: center;
             align-items: center;
+
+                @include celular {
+                    width: 250px;
+                    padding: .8rem;
+                }
         }
 }
 

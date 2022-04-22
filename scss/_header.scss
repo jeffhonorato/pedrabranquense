@@ -1,17 +1,37 @@
 .header {
     background-color: $cor-header;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+    .menu-hamburguer {
+        width: 60px;
+        display: block;
+    }
+    
+
+        .cabecalho__menu {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
 
         .logo {
             width: 12.5rem;
+
+                @include celular {
+                    width: 6.25rem;
+                }
         }
+
+        
 
         .nav {
             display: flex;
+            flex-wrap: wrap;
             gap: 1rem;
             padding: 1rem;
+
+                // @include celular {
+                //     display: none;
+                // } 
         }
 
         .nav__item {
@@ -30,11 +50,19 @@
 
         .img__menu {
             width: 30px;
+
+                @include celular {
+                    width: 20px;
+                }
         }
 
         .nav__link {
             color: #fff;
             font-family: $fonte-titulo;
             font-size: 1.4rem;
+
+                @include celular {
+                    font-size: .8rem;
+                }
         }
 }

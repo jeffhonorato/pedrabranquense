@@ -2,6 +2,10 @@
     background-color: $cor-section;
     height: 100vh;
 
+        @include celular {
+            height: 200vh;
+        }
+
         .sobre__box {
             display: flex;
             flex-wrap: wrap;
@@ -9,10 +13,19 @@
             align-items: center;
             gap: 4rem;
             height: 100vh;
+
+                @include celular {
+                    gap: 2rem;
+                }
         }
 
         .logo__liga {
             width: 350px;
+
+                @include celular {
+                    width: 200px;
+                    padding-top: 1rem;
+                }
         }
 
         .sobre__info {
@@ -36,6 +49,11 @@
             font-family: $fonte-corpo;
             font-size: 2.4rem;
             margin-bottom: 2rem;
+
+                @include celular {
+                    font-size: 2rem;
+                    text-align: center;
+                }
         }
 
         .sobre__p {
