@@ -29,11 +29,12 @@
 
         .patrocinio-box1, .patrocinio-box2 {
             display: flex;
+            flex-wrap: wrap;
             justify-content: center;
             align-items: center;
 
                 @include celular {
-                    width: 250px;
+                    // width: 250px;
                     padding: .8rem;
                 }
         }
