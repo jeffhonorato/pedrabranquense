@@ -125,8 +125,8 @@
 
         .fase__1__box {
             margin-bottom: 1.4rem;
-            cursor: pointer;
-               
+            cursor: pointer;  
+            
         }
 
         .fase__titulo {
@@ -139,6 +139,7 @@
             width: 500px;
             border-top-right-radius: 50px;
             border: 1px solid $cor-paragrafo;
+            
 
                 &:hover {
                     background-color: #fff;
@@ -250,6 +251,21 @@
             to {
                 opacity: 1;
                 transform: translate3d(0,0,0);
+            }
+        }
+
+        details[open] summary ~ * {
+            animation: scroll .7s ease-out;
+        }
+
+        @keyframes scroll {
+            from {
+                opacity: 0;
+                margin-top: -10px;
+            }
+            to {
+                opacity: 1;
+                margin-top: 0px;
             }
         }
 }
