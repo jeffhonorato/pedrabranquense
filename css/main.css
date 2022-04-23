@@ -376,7 +376,7 @@ img {
   /* line 236, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_tabela.scss */
   .tabela .js-tabConteudo .fase__1.ativo {
     display: flex;
-    animation: show .6s forwards; }
+    animation: show; }
 
 @keyframes show {
   from {

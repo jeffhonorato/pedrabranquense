@@ -1,5 +1,5 @@
 const tabMenu = document.querySelectorAll(".js-tabela-menu a");
-const tabConteudo = document.querySelectorAll(".serie-a .fase__1");
+const tabConteudo = document.querySelectorAll(".tabela .fase__1");
 tabConteudo[0].classList.add("ativo")
 
 const activeTab = (index) => {
