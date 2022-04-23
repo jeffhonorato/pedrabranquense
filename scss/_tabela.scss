@@ -115,6 +115,12 @@
             flex-wrap: wrap;
             justify-content: space-around;
             gap: 2;
+            margin-top: 2rem;
+        }
+
+        .quartas, .semi, .final {
+            display: flex;
+            justify-content: center;
         }
 
         .fase__1__box {
@@ -233,7 +239,7 @@
 
         .js-tabConteudo .fase__1.ativo {
             display: flex;
-            animation: show;
+            animation: show .8s forwards;
         }
 
         @keyframes show {
