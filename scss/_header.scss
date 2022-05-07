@@ -8,6 +8,7 @@
         top: 4px;
         right: 4px;
         width: 60px;
+        display: none;
         
     }
     
@@ -30,7 +31,6 @@
 
         .nav {
             display: flex;
-            flex-wrap: wrap;
             gap: 1rem;
             padding: 1rem;
 
@@ -39,13 +39,18 @@
                 // } 
         }
 
+        .nav.ativo {
+            display: flex;
+        }
+
         .nav__item {
             display: flex;
             align-items: center;
-            gap: .3rem;
-            padding: 4px 8px;
-            box-shadow: 0px 0px 2px 2px #000;
+            justify-content: space-around;
+            background-color: $cor-section;
+            box-shadow: 0px 0px 2px 2px #fff;
             border-radius: 4px;
+            padding: .2rem;
 
                 &:hover {
                     box-shadow: 0px 0px 4px 4px #fff;
@@ -53,8 +58,9 @@
                 }
         }
 
-        .img__menu {
+        .nav__ico {
             width: 30px;
+            color: #fff;
 
                 @include celular {
                     width: 20px;
@@ -64,7 +70,8 @@
         .nav__link {
             color: #fff;
             font-family: $fonte-titulo;
-            font-size: 1.4rem;
+            font-size: 1.5rem;
+            padding: .8rem;
 
                 @include celular {
                     font-size: .8rem;
@@ -116,16 +123,14 @@
             background-color: $cor-paragrafo;
             opacity: .9;
             position: absolute;
-            bottom: 100px;
+            bottom: 115px;
             left: 40px;
-            width: 600px;
+            width: 700px;
             height: 50px;
             border-top-right-radius: 30px;
             border-bottom-right-radius: 30px;
             transform: rotateZ(-18deg);
         }
 
-        // .detalhes__header p {
-        //     width: 500px;
-        // }
+        
 }
