@@ -22,13 +22,14 @@
 
         .cla__tabela {
             display: flex;
+            justify-content: center;
             width: 600px;
             margin: 0 auto;
             border: 2px solid #fff;
             border-bottom-right-radius: 15%;
 
                 @include celular {
-                    width: 400px;
+                    width: 300px;
                 }
         }
 
@@ -172,12 +173,20 @@
             width: 40px;
             text-align: center;
             padding: .8rem;
+
+            @include celular {
+                padding: .4rem;
+            }
         }
 
         .golsContra {
             color: #fff;
             font-size: 1.4rem;
             width: 40px; 
+
+                @include celular {
+                    font-size: .8rem;
+                }
         }
 
         .tabela__cabecalho {

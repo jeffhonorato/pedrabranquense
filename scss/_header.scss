@@ -87,7 +87,10 @@
         .header__detalhes img {
             z-index: 1;
             width: 400px;
-            // border: 2px solid #000;
+           
+                @include celular {
+                    width: 260px;
+                }
         }   
 
         .detalhes__header1 {
@@ -102,7 +105,11 @@
             border-top-right-radius: 30px;
             border-bottom-right-radius: 30px;
             transform: rotateZ(-18deg);
-            
+
+                @include celular {
+                    width: 300px;
+                }
+
         }
 
         .detalhes__header2 {
@@ -117,6 +124,12 @@
             border-top-right-radius: 30px;
             border-bottom-right-radius: 30px;
             transform: rotateZ(-18deg);
+
+                @include celular {
+                    width: 300px;
+                    bottom: 230px;
+                    left: -30px;
+                }
         }
 
         .detalhes__header3 {
@@ -131,6 +144,13 @@
             border-top-right-radius: 30px;
             border-bottom-right-radius: 30px;
             transform: rotateZ(-18deg);
+
+                @include celular {
+                    width: 300px;
+                    bottom: 160px;
+                    left: -40px;
+
+                }
         }
 
         
