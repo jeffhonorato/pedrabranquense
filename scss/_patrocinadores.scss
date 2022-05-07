@@ -27,11 +27,12 @@
                 }
         }
 
-        .patrocinio-box1 {
+        .patrocinio-box {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
             align-items: center;
+            padding: 1rem;
 
                 @include celular {
                     // width: 250px;
