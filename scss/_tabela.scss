@@ -21,8 +21,7 @@
         }
 
         .cla__tabela {
-            display: grid;
-            grid-template-columns: repeat(6, 1fr);
+            display: flex;
             width: 600px;
             margin: 0 auto;
             border: 2px solid #fff;
