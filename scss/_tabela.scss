@@ -32,26 +32,26 @@
             padding: .5rem;
         }
 
-        .colocacao__cabecalho {
-            // background-color: aqua;
-            color: #fff;
-            margin-bottom: .4rem;
-        }
-
         .colocacao {
             color: #fff;
             font-size: 1.2rem;
+        }
+
+        .colocacao__cabecalho,
+        .times__cabecalho,
+        .pontos__cabecalhos,
+        .jogos__cabecalho,
+        .golsPro__cabecalho,
+        .golsContra__cabecalho {
+            // background-color: aqua;
+            color: #fff;
+            margin-bottom: .6rem;
         }
 
         .cla__times {
             background-color: tomato;
             width: 200px;
             padding: .5rem;
-        }
-
-        .times__cabecalho {
-            color: #fff;
-            margin-bottom: .4rem;
         }
 
         .time {
@@ -62,11 +62,7 @@
         .cla__pontos {
             background-color: cornflowerblue;
             width: 40px;
-        }
-
-        .pontos__cabecalhos {
-            color: #fff;
-            margin-bottom: .4rem;
+            text-align: center;
         }
 
         .pontos {
@@ -78,11 +74,7 @@
         .cla__jogos {
             background-color: darkolivegreen;
             width: 40px;
-        }
-
-        .jogos__cabecalho {
-            color: #fff;
-            margin-bottom: .4rem;
+            text-align: center;
         }
 
         .jogos {
@@ -93,11 +85,7 @@
         .cla__golsPro {
             background-color: crimson;
             width: 40px;
-        }
-
-        .golsPro__cabecalho {
-            color: #fff;
-            margin-bottom: .4rem;
+            text-align: center;
         }
 
         .golsPro {
@@ -106,23 +94,15 @@
         }
 
         .cla__golsContra {
-            background-color: cyan;
+            background-color: darkorange;
             width: 40px;
+            text-align: center;
         }
 
-        .golsContra__cabecalho {
-            color: #fff;
-            margin-bottom: .4rem;
-        }
-
-        .golsPro {
+        .golsContra {
             color: #fff;
             font-size: 1.2rem;
         }
-
-
-
-
 
         .tabela__cabecalho {
             color: #fff;
