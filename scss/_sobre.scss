@@ -5,7 +5,7 @@
     z-index: 0;
 
         @include celular {
-            height: 160vh;
+            height: 130vh;
         }
 
         .sobre__box {
@@ -37,6 +37,10 @@
 
         .img__detalhe__bola {
             width: 60px;
+
+                @include celular {
+                    display: none;
+                }
         }
 
         .img__detalhe__bola2 {
@@ -44,6 +48,10 @@
             bottom: -25px;
             right: 0;
             position: absolute;
+
+                @include celular {
+                    display: none;
+                }
         }
 
         .sobre__titulo {

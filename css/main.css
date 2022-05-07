@@ -193,7 +193,7 @@ img {
   @media (max-width: 480px) {
     /* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_sobre.scss */
     .sobre {
-      height: 160vh; } }
+      height: 130vh; } }
   /* line 11, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_sobre.scss */
   .sobre .sobre__box {
     display: flex;
@@ -221,24 +221,32 @@ img {
   /* line 38, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_sobre.scss */
   .sobre .img__detalhe__bola {
     width: 60px; }
-  /* line 42, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_sobre.scss */
+    @media (max-width: 480px) {
+      /* line 38, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_sobre.scss */
+      .sobre .img__detalhe__bola {
+        display: none; } }
+  /* line 46, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_sobre.scss */
   .sobre .img__detalhe__bola2 {
     width: 60px;
     bottom: -25px;
     right: 0;
     position: absolute; }
-  /* line 49, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_sobre.scss */
+    @media (max-width: 480px) {
+      /* line 46, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_sobre.scss */
+      .sobre .img__detalhe__bola2 {
+        display: none; } }
+  /* line 57, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_sobre.scss */
   .sobre .sobre__titulo {
     color: #fff;
     font-family: "KoHo", sans-serif;
     font-size: 2.4rem;
     margin-bottom: 2rem; }
     @media (max-width: 480px) {
-      /* line 49, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_sobre.scss */
+      /* line 57, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_sobre.scss */
       .sobre .sobre__titulo {
         font-size: 2rem;
         text-align: center; } }
-  /* line 61, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_sobre.scss */
+  /* line 69, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_sobre.scss */
   .sobre .sobre__p {
     color: #928d8d;
     font-family: "KoHo", sans-serif;
