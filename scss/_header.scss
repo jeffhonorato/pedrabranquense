@@ -3,6 +3,10 @@
     height: 100vh;
     position: relative;
 
+        @include celular {
+            height: 90vh;
+        }
+
     .menu-hamburguer {
         display: none;
         position: fixed;
