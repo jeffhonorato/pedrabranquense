@@ -9,6 +9,7 @@
         top: 4px;
         right: 4px;
         width: 60px;
+        z-index: 4;
 
             @include celular {
                 display: block;

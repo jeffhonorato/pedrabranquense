@@ -38,25 +38,26 @@ img {
     position: fixed;
     top: 4px;
     right: 4px;
-    width: 60px; }
+    width: 60px;
+    z-index: 4; }
     @media (max-width: 480px) {
       /* line 6, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_header.scss */
       .header .menu-hamburguer {
         display: block;
         width: 45px; } }
-  /* line 22, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_header.scss */
+  /* line 23, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_header.scss */
   .header .cabecalho__menu {
     display: flex;
     justify-content: space-between;
     align-items: center; }
-  /* line 28, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_header.scss */
+  /* line 29, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_header.scss */
   .header .logo {
     width: 12.5rem; }
     @media (max-width: 480px) {
-      /* line 28, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_header.scss */
+      /* line 29, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_header.scss */
       .header .logo {
         width: 6.25rem; } }
-  /* line 38, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_header.scss */
+  /* line 39, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_header.scss */
   .header .nav {
     z-index: 4;
     display: flex;
@@ -67,14 +68,14 @@ img {
     top: 40px;
     right: 0px; }
     @media (max-width: 480px) {
-      /* line 38, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_header.scss */
+      /* line 39, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_header.scss */
       .header .nav {
         display: none;
         gap: .4rem; } }
-  /* line 56, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_header.scss */
+  /* line 57, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_header.scss */
   .header .nav.ativo {
     display: flex; }
-  /* line 60, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_header.scss */
+  /* line 61, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_header.scss */
   .header .nav__item {
     display: flex;
     align-items: center;
@@ -83,47 +84,47 @@ img {
     box-shadow: 0px 0px 10px 2px #fff;
     border-radius: 4px;
     padding: .2rem; }
-    /* line 69, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_header.scss */
+    /* line 70, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_header.scss */
     .header .nav__item:hover {
       background-color: #006B8F;
       transition: all .5s;
       box-shadow: 0px 0px 2px 2px #000; }
     @media (max-width: 480px) {
-      /* line 60, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_header.scss */
+      /* line 61, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_header.scss */
       .header .nav__item {
         box-shadow: 0px 0px 5px 2px #fff; } }
-  /* line 80, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_header.scss */
+  /* line 81, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_header.scss */
   .header .nav__ico {
     width: 30px;
     color: #fff; }
     @media (max-width: 480px) {
-      /* line 80, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_header.scss */
+      /* line 81, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_header.scss */
       .header .nav__ico {
         width: 20px; } }
-  /* line 89, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_header.scss */
+  /* line 90, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_header.scss */
   .header .nav__link {
     color: #fff;
     font-family: "Nova Square", cursive;
     font-size: 1.5rem;
     padding: .8rem; }
     @media (max-width: 480px) {
-      /* line 89, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_header.scss */
+      /* line 90, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_header.scss */
       .header .nav__link {
         font-size: .8rem;
         padding: .4rem; } }
-  /* line 101, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_header.scss */
+  /* line 102, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_header.scss */
   .header .header__detalhes {
     display: flex;
     justify-content: space-around; }
-  /* line 106, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_header.scss */
+  /* line 107, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_header.scss */
   .header .header__detalhes img {
     z-index: 1;
     width: 400px; }
     @media (max-width: 480px) {
-      /* line 106, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_header.scss */
+      /* line 107, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_header.scss */
       .header .header__detalhes img {
         width: 260px; } }
-  /* line 115, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_header.scss */
+  /* line 116, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_header.scss */
   .header .detalhes__header1 {
     z-index: 0;
     background-color: #928d8d;
@@ -137,10 +138,10 @@ img {
     border-bottom-right-radius: 30px;
     transform: rotateZ(-18deg); }
     @media (max-width: 480px) {
-      /* line 115, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_header.scss */
+      /* line 116, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_header.scss */
       .header .detalhes__header1 {
         width: 300px; } }
-  /* line 134, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_header.scss */
+  /* line 135, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_header.scss */
   .header .detalhes__header2 {
     z-index: 0;
     background-color: #928d8d;
@@ -154,12 +155,12 @@ img {
     border-bottom-right-radius: 30px;
     transform: rotateZ(-18deg); }
     @media (max-width: 480px) {
-      /* line 134, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_header.scss */
+      /* line 135, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_header.scss */
       .header .detalhes__header2 {
         width: 300px;
         bottom: 230px;
         left: -30px; } }
-  /* line 154, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_header.scss */
+  /* line 155, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_header.scss */
   .header .detalhes__header3 {
     z-index: 0;
     background-color: #928d8d;
@@ -173,7 +174,7 @@ img {
     border-bottom-right-radius: 30px;
     transform: rotateZ(-18deg); }
     @media (max-width: 480px) {
-      /* line 154, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_header.scss */
+      /* line 155, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_header.scss */
       .header .detalhes__header3 {
         width: 300px;
         bottom: 160px;
@@ -183,12 +184,13 @@ img {
 .sobre {
   background-color: #001F29;
   height: 100vh;
-  border-bottom: 3px solid #fff; }
+  border-bottom: 3px solid #fff;
+  z-index: 0; }
   @media (max-width: 480px) {
     /* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_sobre.scss */
     .sobre {
-      height: 170vh; } }
-  /* line 10, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_sobre.scss */
+      height: 185vh; } }
+  /* line 11, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_sobre.scss */
   .sobre .sobre__box {
     display: flex;
     flex-wrap: wrap;
@@ -197,42 +199,42 @@ img {
     gap: 4rem;
     height: 100vh; }
     @media (max-width: 480px) {
-      /* line 10, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_sobre.scss */
+      /* line 11, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_sobre.scss */
       .sobre .sobre__box {
         gap: 2rem; } }
-  /* line 23, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_sobre.scss */
+  /* line 24, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_sobre.scss */
   .sobre .logo__liga {
     width: 350px; }
     @media (max-width: 480px) {
-      /* line 23, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_sobre.scss */
+      /* line 24, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_sobre.scss */
       .sobre .logo__liga {
         width: 200px;
         padding-top: 1rem; } }
-  /* line 32, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_sobre.scss */
+  /* line 33, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_sobre.scss */
   .sobre .sobre__info {
     width: 640px;
     position: relative; }
-  /* line 37, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_sobre.scss */
+  /* line 38, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_sobre.scss */
   .sobre .img__detalhe__bola {
     width: 60px; }
-  /* line 41, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_sobre.scss */
+  /* line 42, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_sobre.scss */
   .sobre .img__detalhe__bola2 {
     width: 60px;
     bottom: -25px;
     right: 0;
     position: absolute; }
-  /* line 48, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_sobre.scss */
+  /* line 49, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_sobre.scss */
   .sobre .sobre__titulo {
     color: #fff;
     font-family: "KoHo", sans-serif;
     font-size: 2.4rem;
     margin-bottom: 2rem; }
     @media (max-width: 480px) {
-      /* line 48, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_sobre.scss */
+      /* line 49, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_sobre.scss */
       .sobre .sobre__titulo {
         font-size: 2rem;
         text-align: center; } }
-  /* line 60, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_sobre.scss */
+  /* line 61, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_sobre.scss */
   .sobre .sobre__p {
     color: #928d8d;
     font-family: "KoHo", sans-serif;
