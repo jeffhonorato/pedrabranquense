@@ -35,7 +35,7 @@ img {
   @media (max-width: 480px) {
     /* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_header.scss */
     .header {
-      height: 90vh; } }
+      height: 75vh; } }
   /* line 10, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/pedrabranquense/scss/_header.scss */
   .header .menu-hamburguer {
     display: none;
