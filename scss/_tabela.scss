@@ -3,7 +3,7 @@
     padding-top: 2rem;
 
         .classificacao {
-            height: 100vh;
+            height: 80vh;
         }
 
         .cla__titulo {
@@ -17,19 +17,19 @@
             width: 400px;
             border: 1px solid #fff;
             text-align: center;
-            margin: 0 auto;
+            margin: 2rem auto;
         }
 
         .cla__tabela {
             display: grid;
             grid-template-columns: repeat(6, 1fr);
-            width: 300px;
+            width: 600px;
+            margin: 0 auto;
         }
 
         .cla__colocacao {
-            background-color: tan;
             text-align: center;
-            padding: .5rem;
+            padding: .8rem;
         }
 
         .colocacao {
@@ -43,15 +43,19 @@
         .jogos__cabecalho,
         .golsPro__cabecalho,
         .golsContra__cabecalho {
-            // background-color: aqua;
+            background-color: $cor-header;
             color: #fff;
             margin-bottom: .6rem;
+            width: 40px;
+        }
+
+        .times__cabecalho {
+            width: 100px;
         }
 
         .cla__times {
-            background-color: tomato;
             width: 200px;
-            padding: .5rem;
+            padding: .8rem;
         }
 
         .time {
@@ -60,9 +64,10 @@
         }
 
         .cla__pontos {
-            background-color: cornflowerblue;
+           
             width: 40px;
             text-align: center;
+            padding: .8rem;
         }
 
         .pontos {
@@ -72,9 +77,10 @@
         }
 
         .cla__jogos {
-            background-color: darkolivegreen;
+            
             width: 40px;
             text-align: center;
+            padding: .8rem;
         }
 
         .jogos {
@@ -83,9 +89,10 @@
         }
 
         .cla__golsPro {
-            background-color: crimson;
+            
             width: 40px;
             text-align: center;
+            padding: .8rem;
         }
 
         .golsPro {
@@ -94,9 +101,10 @@
         }
 
         .cla__golsContra {
-            background-color: darkorange;
+            
             width: 40px;
             text-align: center;
+            padding: .8rem;
         }
 
         .golsContra {
